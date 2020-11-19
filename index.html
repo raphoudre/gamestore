@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>GameStore</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <!-- <header class="text-center">
+    <button type="button" id="closeCar" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    </header>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/blackfriday.svg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/santaclaus.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+    <nav class="navbar navbar-expand-lg navbar-dark manoir border-verydark sticky-top" id="">
+        <img src="assets/img/logonav.png" class="navbar-brand" width="15%" height="auto" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light titles" id="goAccueil" href="#accueil"><i
+                            class="fas fa-home text-danger"></i>
+                        Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light titles" id="goCatalogue" href="#catalogue"><i
+                            class="fas fa-book text-danger"></i>
+                        Catalogue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light titles" id="goContact" href=""><i
+                            class="fas fa-phone text-danger"></i>
+                        Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light titles" id="goFaq" href=""><i
+                            class="fas fa-question text-danger"></i>
+                        FAQ</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light titles" id="goPanier" href="" data-toggle="modal" data-target="#cartModal"><i
+                            class="fas fa-shopping-basket text-danger"></i> Panier</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="accueil">
+        <div class="row">
+            <div class="col-12 text-center">
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row rowAboutUs d-flex justify-content-center text-center" id="">
+                <div class="col-12">
+                    <h1 class="titles text-danger">Qui sommes-nous ?</h1>
+                    <p class="text-light" id="infoFontSize">Nous sommes une équipe de 3 amis, pour lesquels le gaming
+                        représente énormément.
+                        C'est pourquoi nous avons créé <span class="font-weight-bold"><em>Game<span
+                                    class="text-danger">Store</em></span></span>
+                        , une boutique de jeux fait par des gamers pour les gamers.
+                        Retrouvez les dernières exclusivités, ou même premiers jeux à un prix record ! 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12  text-danger titles text-center">
+                    <h3>Notre équipe  <button type="button" id="ourTeamButton"class="btn btn-outline-danger"><i class="fas fa-arrow-alt-circle-down"></i></button></h3>
+                </div>
+            </div>
+            <div class="row border-bottom border-danger invisible" id="infoUs">
+                <div class="col-12 d-flex justify-content-around">
+                    <div class="col-4 text-center">
+                        <img src="assets/img/flavish.jpg" height="80%" alt="">
+                        <h2 class="titles text-danger">Flavie</h2>
+                        <h4 class="titles text-white">"AliaGladiatrice"</h4>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="assets/img/raph.jpg" height="80%" alt="">
+                        <h2 class="titles text-danger">Raphaël</h2>
+                        <h4 class="titles text-white">"ShadyX"</h4>
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="assets/img/brice.jpg" height="80%" alt="">
+                        <h2 class="titles text-danger">Brice</h2>
+                        <h4 class="titles text-white">"BriceSensei"</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" id="catalogue">
+                <h1 class="titles text-danger">Catalogue</h1>
+            </div>
+            <div class="row rowGames">
+                <div class="col-3 border">
+
+                </div>
+                <div class="col-1">
+                    
+                </div>
+                <div class="col-8 border">
+                    <a data-toggle="modal" data-target="#exampleModal"><img class="col-2" src="assets/img/cameraroll/fifa-21-ps4-france-cover.jpg" alt=""></a>
+                    <img class="col-2" src="assets/img/cameraroll/football-manager-2021-cover.jpg" height="" alt="">
+                    <img class="col-2"src="assets/img/cameraroll/cyberpunk-2077-xbox-one-cover.jpg" height="" alt="">
+                    <img class="col-2" src="assets/img/cameraroll//call-of-duty-black-ops-cold-war-xbox-one-cover.jpg" height="" alt="">
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">FIFA 21</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Achète pas ce jeu il est nul, vraiment, utilise mieux ton argent.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" id="addCartFifa">Ajouter au panier</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Panier</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul id="cartDesc">
+                </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="addCartFifa">Acheter</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <footer class="manoir titles">
+        <div class="row text-light borderedBlack">
+            <div class="col-4 text-center">
+                <p>CGV <i class="fas fa-file-alt text-light"></i></p>
+            </div>
+            <div class="col-4 text-center">
+                <p>GameStore 2020 <i class="fa fa-copyright text-light" aria-hidden="true"></i></p>
+            </div>
+            <div class="col-4 text-center text-light">
+                <p><i class="fas fa-file-alt"></i> <i class="fab fa-instagram-square"></i> <i
+                        class="fab fa-linkedin"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

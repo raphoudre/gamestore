@@ -1,0 +1,99 @@
+li{
+    list-style-type: none;
+}
+
+#closeCar{
+    position: absolute;
+    z-index: 99;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.manoir {
+    background-color: black;
+}
+
+#infoFontSize {
+    font-size: x-large;
+}
+
+.titles {
+    font-family: 'Bangers', cursive;
+}
+
+
+.rowAboutUs {
+    height: 30vh;
+}
+
+.rowGames{
+    height: 70vh;
+}
+
+.rowSpace {
+    height: 5vh;
+}
+
+.visible {
+    display: block;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+.invisible {
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
