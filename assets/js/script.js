@@ -40,11 +40,6 @@ let catalogue = document.getElementById("catalogue");
 let panier = document.getElementById("panier");
 let infoUs = document.getElementById("infoUs")
 
-let closeCar = document.getElementById("closeCar");
-closeCar.onclick = function(){
-    document.getElementById("carouselExampleControls").classList.toggle("invisible")
-    closeCar.classList.toggle("invisible")
-}
 
 const allCross = document.querySelectorAll('.visible-pannel img');
 console.log(allCross);
@@ -63,17 +58,17 @@ allCross.forEach(element => {
             this.src = 'assets/img/angle-up-solid.svg';
             gsap.to(currentChoice, {duration: 0.2, height: height + 40, opacity: 1, padding: '20px 15px'})
         } else if (this.src.includes('angle-up-solid')){
-            this.src = 'assets/img/angle-up-solid.svg';
+            this.src = 'assets/img/angle-down-solid.svg';
             gsap.to(currentChoice, {duration: 0.2, height: 0, opacity: 0, padding: '0px 15px'})
         }
     })
 })
 
-const parallax = document.getElementById('parallax');
+const parallaxx = document.getElementById('parallax');
 
 window.addEventListener('scroll', () => {
-    console.log(window.scrollY);
-    parallax.style.backgroundPositionY = -window.scrollY / 3 + "px";
+    parallaxx.style.backgroundPositionY =   (-window.scrollY / 2) +1600 + "px";
+    // parallaxx.style.backgroundPositionY = -100 + (window.scrollY/(document.body.scrollHeight - window.innerHeight)) *100 + "px";
 });
 
 mybutton = document.getElementById("myBtn");
@@ -94,3 +89,4 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+

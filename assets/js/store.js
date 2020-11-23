@@ -80,7 +80,7 @@ function addItemToCart(title, price, imageSrc) {
             <input class="cart-quantity-input" type="number" value="1">
             <button class="btn btn-danger" type="button">RETIRER</button>
         </div>`
-    cartRow.innerHTML = cartRowContents
+    cartRow.innerHTML += cartRowContents
     cartItems.append(cartRow)
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
